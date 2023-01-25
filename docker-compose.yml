@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  laravelestudo:
+    image: laravelestudo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
